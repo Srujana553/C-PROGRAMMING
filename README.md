@@ -1,2 +1,2 @@
 # hello-world
-C++ Programming
+C Programming
