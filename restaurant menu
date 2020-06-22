@@ -1,0 +1,31 @@
+#include<stdio.h>
+int main()
+{
+int choice=3;
+switch(choice)
+ {
+  case 1:
+        printf("enter your choice :\n1. Pizza.");
+        printf("enter price :\n1. Rs 239.");
+        break;
+  case 2:
+        printf("enter your choice :\n2. Burger.");
+        printf("enter price :\n2. Rs 129.");
+        break;
+  case 3:
+        printf("enter your choice :\n3. Pasta.");
+        printf("enter price :\n3. Rs 179.");
+        break;
+  case 4:
+        printf("enter your choice :\n4. French Fries.");
+        printf("enter price :\n4. Rs 99.");
+        break;
+  case 5:
+        printf("enter your choice :\n5. Sandwich.");
+        printf("enter price :\n5. Rs 239.");
+        break;
+  default: printf("invalid choice");
+ }        
+return 0;
+}  
+  
